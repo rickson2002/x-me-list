@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto X-Men </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img src="./src/imagens/logo.svg" alt="Logo X-Men">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class=personagens>
+            <h1 class="titulo"> Selecione um personagem </h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="ciclope" data-name = "Ciclope"  data-description="Scott Summers,personagem criado por Jack Kirby e Stan Lee em 1963, membro fundador do grupo X-Men e líder de campo da equipe.
+                Nascido mutante, ele tem o poder de projetar pura energia de seus olhos, através de raios de energia concussiva controlados por seu visor feito de quartzo-rubi">
+                    <img src="./src/imagens/card-ciclope.jpg" alt="Personagem Ciclope">
+                </li>
+
+
+                <li class="personagem" id="jean-grey" data-name = "Jean Grey" data-description=" Jean Grey é uma mutante nível ômega e o principal avatar da Força Fênix, no qual manifesta poderes cósmicos. A telepatia, telecinese e empatia de Jean são drasticamente aumentadas quando em contato com a Fênix, além de poder viajar no vácuo do espaço que vai além da velocidade da luz."> 
+                    <img src="./src/imagens/card-jean-grey.jpg" alt="Personagem Jean Grey">
+                </li>
+
+
+                <li class="personagem" id="lince-negra" data-name = "Lince Negra" data-description=" Kitty Pryde, ou Lince Negr é uma personagem fictícia das histórias em quadrinhos do Universo Marvel, publicadas pela Marvel Comics. Originalmente denominada Ninfa, ela integrou a quarta formação dos X-Men, utilizando ao máximo sua habilidade de atravessar objetos sólidos e andar no ar.">
+                    <img src="./src/imagens/card-lince-negra.jpg" alt="Personagem Lince Negra">
+                </li>
+
+
+                <li class="personagem" id="magneto" data-name = "Magneto" data-description="Magneto é o mutante Erik Magnus Lehnsherr, com a capacidade de controle e manipulação de campos magnéticos bem como qualquer tipo de metal.Nascido em uma família judaica, foi perseguido e feito prisioneiro em Auschwitz na II Guerra Mundial.
+                ">
+                    <img src="./src/imagens/card-magneto.jpg" alt="Personagem Magneto">
+                </li>
+
+
+                <li class="personagem" id="noturno" data-name = "Noturno" data-description="Como um mutante, Noturno possui agilidade sobre-humana, e a capacidade de teletransporte, invisibilidade em sombras profundas,e as mãos e os pés aderirem a parede. Sua mutações físicas incluem a pele azul, três dedos nos pés e mãos (incluindo o polegar), olhos amarelos, e uma cauda preênsil.">
+                    <img src="./src/imagens/card-noturno.jpg" alt="Personagem Noturno">
+                </li>
+
+
+                <li class="personagem" id="tempestade" data-name = "Tempestade" data-description="Tempestade é descendente de uma antiga linha de sacerdotisas africanas. Todas têm cabelos brancos, olhos azuis e potencial para usar magia. ">
+                    <img src="./src/imagens/card-tempestade.jpg" alt="Personagem Tempestade">
+                </li>
+                
+
+                <li class="personagem" id="vampira" data-name = "Vampira" data-description="Vampira é integrante (e as vezes líder) de algumas equipes dos X-Men e dos Vingadores. Sua primeira aparição foi em The Avengers Annual número 10 de 1981, e seu poder mutante é a habilidade de absorver a vitalidade, memórias, habilidades e poderes de outros seres vivos através do contato com a pele.
+                ">
+                    <img src="./src/imagens/card-vampira.jpg" alt="Personagem Vampira">
+                </li>
+
+                <li class="personagem" id="wolverine" data-name = "Wolverine" data-description="Ele é um mutante que possui sentidos afiados, capacidades físicas aprimoradas, habilidade regenerativa poderosa conhecida como fator de cura e três garras retratáveis ​​de osso em cada mão. Wolverine foi retratado de forma variada como membro do X-Men, Tropa Alfa e Vingadores.
+                ">
+                    <img src="./src/imagens/card-wolverine.jpg" alt="Personagem Wolverine">
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande"
+             src="./src/imagens/card-ciclope.png" 
+             alt="Personagem Selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Cyclops (Ciclope) é Scott Summers,
+                    personagem criado por Jack Kirby e Stan Lee em 1963, membro fundador do grupo X-Men e líder de campo
+                    da equipe.
+                    Nascido mutante, ele tem o poder de projetar pura energia de seus olhos,
+                    através de raios de energia concussiva controlados por seu visor feito de quartzo-rubi.</p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
